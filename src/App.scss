@@ -1,0 +1,28 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+   .mainlist{
+     display: flex;
+
+    .list{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 15px;
+        padding: 10px;
+        text-decoration: none;
+        margin: 20px;
+        border: 1px solid cadetblue;
+        border-radius: 5px;
+        
+
+    }
+    .list:hover{
+        background-color: #2879fe;
+        color: #fff;
+    }
+   }
+}
